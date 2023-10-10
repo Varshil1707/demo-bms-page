@@ -1,0 +1,47 @@
+.seatSelectionContainer {
+  height: 350px;
+  width: 550px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.seatSelectionHeading {
+  display: flex;
+  flex: 0.3;
+  justify-content: center;
+  align-items: center;
+}
+
+.seatCountContainer {
+  display: flex;
+  flex: 0.4;
+  justify-content: center;
+  align-items: center;
+}
+.seatCounts {
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seatCounts-count-page {
+  border-radius: 50px;
+}
+
+.seatCounts-selection-page {
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+.seatCounts:hover {
+  background-color: #f04364;
+}
+
+.rowCountAlphabet {
+  padding: 0px 20px;
+}
